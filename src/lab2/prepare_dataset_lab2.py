@@ -165,5 +165,7 @@ for name, text in cooking_texts.items():
     with open(os.path.join(COOK_DIR, name), "w", encoding="utf-8") as f:
         f.write(text.strip())
 
-with open(os.path.join(BASE_DIR, "test_sample.txt"), "w", encoding="utf-8") as f:
+with open(
+    os.path.join(BASE_DIR, "test_sample.txt"), "w", encoding="utf-8"
+) as f:
     f.write(test_sample.strip())

@@ -3,17 +3,17 @@ name = "klimenko_nlp_labs"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
-    "ipykernel",
-    "jupyter",
-    "matplotlib",
-    "nltk",
-    "numpy",
-    "pandas",
-    "pymorphy3",
-    "scikit-learn",
-    "seaborn",
-    "spacy",
-    "wordcloud",
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "nltk>=3.10.3",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "pymorphy3>=2.0.6",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "spacy>=3.8.16",
+    "wordcloud>=1.9.6",
 ]
 
 [tool.ruff]

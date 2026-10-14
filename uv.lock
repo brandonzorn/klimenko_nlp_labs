@@ -1231,7 +1231,7 @@ wheels = [
 ]
 
 [[package]]
-name = "lab1"
+name = "klimenko-nlp-labs"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
@@ -1250,17 +1250,17 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "ipykernel" },
-    { name = "jupyter" },
-    { name = "matplotlib" },
-    { name = "nltk" },
-    { name = "numpy" },
-    { name = "pandas" },
-    { name = "pymorphy3" },
-    { name = "scikit-learn" },
-    { name = "seaborn" },
-    { name = "spacy" },
-    { name = "wordcloud" },
+    { name = "ipykernel", specifier = ">=7.4.0" },
+    { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "matplotlib", specifier = ">=3.11.2" },
+    { name = "nltk", specifier = ">=3.10.3" },
+    { name = "numpy", specifier = ">=2.5.4" },
+    { name = "pandas", specifier = ">=3.0.6" },
+    { name = "pymorphy3", specifier = ">=2.0.6" },
+    { name = "scikit-learn", specifier = ">=1.9.1" },
+    { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "spacy", specifier = ">=3.8.16" },
+    { name = "wordcloud", specifier = ">=1.9.6" },
 ]
 
 [[package]]
